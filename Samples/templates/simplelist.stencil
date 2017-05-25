@@ -1,0 +1,2 @@
+{% for dataset in data %} {% for string in dataset.items %}
+{{ string }} {% endfor %} {% endfor %}
