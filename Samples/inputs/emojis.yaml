@@ -1,0 +1,1705 @@
+name: EmojiImages
+package: com.smallplanet.android.planned.util
+emojis:
+  - emoji: ©
+    filename: emoji_u00a9
+  - emoji: ®
+    filename: emoji_u00ae
+  - emoji: 🀄
+    filename: emoji_u1f004
+  - emoji: 🃏
+    filename: emoji_u1f0cf
+  - emoji: 🅰
+    filename: emoji_u1f170
+  - emoji: 🅱
+    filename: emoji_u1f171
+  - emoji: 🅾
+    filename: emoji_u1f17e
+  - emoji: 🅿
+    filename: emoji_u1f17f
+  - emoji: 🆎
+    filename: emoji_u1f18e
+  - emoji: 🆑
+    filename: emoji_u1f191
+  - emoji: 🆒
+    filename: emoji_u1f192
+  - emoji: 🆓
+    filename: emoji_u1f193
+  - emoji: 🆔
+    filename: emoji_u1f194
+  - emoji: 🆕
+    filename: emoji_u1f195
+  - emoji: 🆖
+    filename: emoji_u1f196
+  - emoji: 🆗
+    filename: emoji_u1f197
+  - emoji: 🆘
+    filename: emoji_u1f198
+  - emoji: 🆙
+    filename: emoji_u1f199
+  - emoji: 🆚
+    filename: emoji_u1f19a
+  - emoji: 🇦
+    filename: emoji_u1f1e6
+  - emoji: 🇧
+    filename: emoji_u1f1e7
+  - emoji: 🇨
+    filename: emoji_u1f1e8
+  - emoji: 🇩
+    filename: emoji_u1f1e9
+  - emoji: 🇪
+    filename: emoji_u1f1ea
+  - emoji: 🇫
+    filename: emoji_u1f1eb
+  - emoji: 🇬
+    filename: emoji_u1f1ec
+  - emoji: 🇭
+    filename: emoji_u1f1ed
+  - emoji: 🇮
+    filename: emoji_u1f1ee
+  - emoji: 🇯
+    filename: emoji_u1f1ef
+  - emoji: 🇰
+    filename: emoji_u1f1f0
+  - emoji: 🇱
+    filename: emoji_u1f1f1
+  - emoji: 🇲
+    filename: emoji_u1f1f2
+  - emoji: 🇳
+    filename: emoji_u1f1f3
+  - emoji: 🇴
+    filename: emoji_u1f1f4
+  - emoji: 🇵
+    filename: emoji_u1f1f5
+  - emoji: 🇶
+    filename: emoji_u1f1f6
+  - emoji: 🇷
+    filename: emoji_u1f1f7
+  - emoji: 🇸
+    filename: emoji_u1f1f8
+  - emoji: 🇹
+    filename: emoji_u1f1f9
+  - emoji: 🇺
+    filename: emoji_u1f1fa
+  - emoji: 🇻
+    filename: emoji_u1f1fb
+  - emoji: 🇼
+    filename: emoji_u1f1fc
+  - emoji: 🇽
+    filename: emoji_u1f1fd
+  - emoji: 🇾
+    filename: emoji_u1f1fe
+  - emoji: 🇿
+    filename: emoji_u1f1ff
+  - emoji: 🈁
+    filename: emoji_u1f201
+  - emoji: 🈂
+    filename: emoji_u1f202
+  - emoji: 🈚
+    filename: emoji_u1f21a
+  - emoji: 🈯
+    filename: emoji_u1f22f
+  - emoji: 🈲
+    filename: emoji_u1f232
+  - emoji: 🈳
+    filename: emoji_u1f233
+  - emoji: 🈴
+    filename: emoji_u1f234
+  - emoji: 🈵
+    filename: emoji_u1f235
+  - emoji: 🈶
+    filename: emoji_u1f236
+  - emoji: 🈷
+    filename: emoji_u1f237
+  - emoji: 🈸
+    filename: emoji_u1f238
+  - emoji: 🈹
+    filename: emoji_u1f239
+  - emoji: 🈺
+    filename: emoji_u1f23a
+  - emoji: 🉐
+    filename: emoji_u1f250
+  - emoji: 🉑
+    filename: emoji_u1f251
+  - emoji: 🌀
+    filename: emoji_u1f300
+  - emoji: 🌁
+    filename: emoji_u1f301
+  - emoji: 🌂
+    filename: emoji_u1f302
+  - emoji: 🌃
+    filename: emoji_u1f303
+  - emoji: 🌄
+    filename: emoji_u1f304
+  - emoji: 🌅
+    filename: emoji_u1f305
+  - emoji: 🌆
+    filename: emoji_u1f306
+  - emoji: 🌇
+    filename: emoji_u1f307
+  - emoji: 🌈
+    filename: emoji_u1f308
+  - emoji: 🌉
+    filename: emoji_u1f309
+  - emoji: 🌊
+    filename: emoji_u1f30a
+  - emoji: 🌋
+    filename: emoji_u1f30b
+  - emoji: 🌌
+    filename: emoji_u1f30c
+  - emoji: 🌍
+    filename: emoji_u1f30d
+  - emoji: 🌎
+    filename: emoji_u1f30e
+  - emoji: 🌏
+    filename: emoji_u1f30f
+  - emoji: 🌐
+    filename: emoji_u1f310
+  - emoji: 🌑
+    filename: emoji_u1f311
+  - emoji: 🌒
+    filename: emoji_u1f312
+  - emoji: 🌓
+    filename: emoji_u1f313
+  - emoji: 🌔
+    filename: emoji_u1f314
+  - emoji: 🌕
+    filename: emoji_u1f315
+  - emoji: 🌖
+    filename: emoji_u1f316
+  - emoji: 🌗
+    filename: emoji_u1f317
+  - emoji: 🌘
+    filename: emoji_u1f318
+  - emoji: 🌙
+    filename: emoji_u1f319
+  - emoji: 🌚
+    filename: emoji_u1f31a
+  - emoji: 🌛
+    filename: emoji_u1f31b
+  - emoji: 🌜
+    filename: emoji_u1f31c
+  - emoji: 🌝
+    filename: emoji_u1f31d
+  - emoji: 🌞
+    filename: emoji_u1f31e
+  - emoji: 🌟
+    filename: emoji_u1f31f
+  - emoji: 🌠
+    filename: emoji_u1f320
+  - emoji: 🌰
+    filename: emoji_u1f330
+  - emoji: 🌱
+    filename: emoji_u1f331
+  - emoji: 🌲
+    filename: emoji_u1f332
+  - emoji: 🌳
+    filename: emoji_u1f333
+  - emoji: 🌴
+    filename: emoji_u1f334
+  - emoji: 🌵
+    filename: emoji_u1f335
+  - emoji: 🌷
+    filename: emoji_u1f337
+  - emoji: 🌸
+    filename: emoji_u1f338
+  - emoji: 🌹
+    filename: emoji_u1f339
+  - emoji: 🌺
+    filename: emoji_u1f33a
+  - emoji: 🌻
+    filename: emoji_u1f33b
+  - emoji: 🌼
+    filename: emoji_u1f33c
+  - emoji: 🌽
+    filename: emoji_u1f33d
+  - emoji: 🌾
+    filename: emoji_u1f33e
+  - emoji: 🌿
+    filename: emoji_u1f33f
+  - emoji: 🍀
+    filename: emoji_u1f340
+  - emoji: 🍁
+    filename: emoji_u1f341
+  - emoji: 🍂
+    filename: emoji_u1f342
+  - emoji: 🍃
+    filename: emoji_u1f343
+  - emoji: 🍄
+    filename: emoji_u1f344
+  - emoji: 🍅
+    filename: emoji_u1f345
+  - emoji: 🍆
+    filename: emoji_u1f346
+  - emoji: 🍇
+    filename: emoji_u1f347
+  - emoji: 🍈
+    filename: emoji_u1f348
+  - emoji: 🍉
+    filename: emoji_u1f349
+  - emoji: 🍊
+    filename: emoji_u1f34a
+  - emoji: 🍋
+    filename: emoji_u1f34b
+  - emoji: 🍌
+    filename: emoji_u1f34c
+  - emoji: 🍍
+    filename: emoji_u1f34d
+  - emoji: 🍎
+    filename: emoji_u1f34e
+  - emoji: 🍏
+    filename: emoji_u1f34f
+  - emoji: 🍐
+    filename: emoji_u1f350
+  - emoji: 🍑
+    filename: emoji_u1f351
+  - emoji: 🍒
+    filename: emoji_u1f352
+  - emoji: 🍓
+    filename: emoji_u1f353
+  - emoji: 🍔
+    filename: emoji_u1f354
+  - emoji: 🍕
+    filename: emoji_u1f355
+  - emoji: 🍖
+    filename: emoji_u1f356
+  - emoji: 🍗
+    filename: emoji_u1f357
+  - emoji: 🍘
+    filename: emoji_u1f358
+  - emoji: 🍙
+    filename: emoji_u1f359
+  - emoji: 🍚
+    filename: emoji_u1f35a
+  - emoji: 🍛
+    filename: emoji_u1f35b
+  - emoji: 🍜
+    filename: emoji_u1f35c
+  - emoji: 🍝
+    filename: emoji_u1f35d
+  - emoji: 🍞
+    filename: emoji_u1f35e
+  - emoji: 🍟
+    filename: emoji_u1f35f
+  - emoji: 🍠
+    filename: emoji_u1f360
+  - emoji: 🍡
+    filename: emoji_u1f361
+  - emoji: 🍢
+    filename: emoji_u1f362
+  - emoji: 🍣
+    filename: emoji_u1f363
+  - emoji: 🍤
+    filename: emoji_u1f364
+  - emoji: 🍥
+    filename: emoji_u1f365
+  - emoji: 🍦
+    filename: emoji_u1f366
+  - emoji: 🍧
+    filename: emoji_u1f367
+  - emoji: 🍨
+    filename: emoji_u1f368
+  - emoji: 🍩
+    filename: emoji_u1f369
+  - emoji: 🍪
+    filename: emoji_u1f36a
+  - emoji: 🍫
+    filename: emoji_u1f36b
+  - emoji: 🍬
+    filename: emoji_u1f36c
+  - emoji: 🍭
+    filename: emoji_u1f36d
+  - emoji: 🍮
+    filename: emoji_u1f36e
+  - emoji: 🍯
+    filename: emoji_u1f36f
+  - emoji: 🍰
+    filename: emoji_u1f370
+  - emoji: 🍱
+    filename: emoji_u1f371
+  - emoji: 🍲
+    filename: emoji_u1f372
+  - emoji: 🍳
+    filename: emoji_u1f373
+  - emoji: 🍴
+    filename: emoji_u1f374
+  - emoji: 🍵
+    filename: emoji_u1f375
+  - emoji: 🍶
+    filename: emoji_u1f376
+  - emoji: 🍷
+    filename: emoji_u1f377
+  - emoji: 🍸
+    filename: emoji_u1f378
+  - emoji: 🍹
+    filename: emoji_u1f379
+  - emoji: 🍺
+    filename: emoji_u1f37a
+  - emoji: 🍻
+    filename: emoji_u1f37b
+  - emoji: 🍼
+    filename: emoji_u1f37c
+  - emoji: 🎀
+    filename: emoji_u1f380
+  - emoji: 🎁
+    filename: emoji_u1f381
+  - emoji: 🎂
+    filename: emoji_u1f382
+  - emoji: 🎃
+    filename: emoji_u1f383
+  - emoji: 🎄
+    filename: emoji_u1f384
+  - emoji: 🎅
+    filename: emoji_u1f385
+  - emoji: 🎆
+    filename: emoji_u1f386
+  - emoji: 🎇
+    filename: emoji_u1f387
+  - emoji: 🎈
+    filename: emoji_u1f388
+  - emoji: 🎉
+    filename: emoji_u1f389
+  - emoji: 🎊
+    filename: emoji_u1f38a
+  - emoji: 🎋
+    filename: emoji_u1f38b
+  - emoji: 🎌
+    filename: emoji_u1f38c
+  - emoji: 🎍
+    filename: emoji_u1f38d
+  - emoji: 🎎
+    filename: emoji_u1f38e
+  - emoji: 🎏
+    filename: emoji_u1f38f
+  - emoji: 🎐
+    filename: emoji_u1f390
+  - emoji: 🎑
+    filename: emoji_u1f391
+  - emoji: 🎒
+    filename: emoji_u1f392
+  - emoji: 🎓
+    filename: emoji_u1f393
+  - emoji: 🎠
+    filename: emoji_u1f3a0
+  - emoji: 🎡
+    filename: emoji_u1f3a1
+  - emoji: 🎢
+    filename: emoji_u1f3a2
+  - emoji: 🎣
+    filename: emoji_u1f3a3
+  - emoji: 🎤
+    filename: emoji_u1f3a4
+  - emoji: 🎥
+    filename: emoji_u1f3a5
+  - emoji: 🎦
+    filename: emoji_u1f3a6
+  - emoji: 🎧
+    filename: emoji_u1f3a7
+  - emoji: 🎨
+    filename: emoji_u1f3a8
+  - emoji: 🎩
+    filename: emoji_u1f3a9
+  - emoji: 🎪
+    filename: emoji_u1f3aa
+  - emoji: 🎫
+    filename: emoji_u1f3ab
+  - emoji: 🎬
+    filename: emoji_u1f3ac
+  - emoji: 🎭
+    filename: emoji_u1f3ad
+  - emoji: 🎮
+    filename: emoji_u1f3ae
+  - emoji: 🎯
+    filename: emoji_u1f3af
+  - emoji: 🎰
+    filename: emoji_u1f3b0
+  - emoji: 🎱
+    filename: emoji_u1f3b1
+  - emoji: 🎲
+    filename: emoji_u1f3b2
+  - emoji: 🎳
+    filename: emoji_u1f3b3
+  - emoji: 🎴
+    filename: emoji_u1f3b4
+  - emoji: 🎵
+    filename: emoji_u1f3b5
+  - emoji: 🎶
+    filename: emoji_u1f3b6
+  - emoji: 🎷
+    filename: emoji_u1f3b7
+  - emoji: 🎸
+    filename: emoji_u1f3b8
+  - emoji: 🎹
+    filename: emoji_u1f3b9
+  - emoji: 🎺
+    filename: emoji_u1f3ba
+  - emoji: 🎻
+    filename: emoji_u1f3bb
+  - emoji: 🎼
+    filename: emoji_u1f3bc
+  - emoji: 🎽
+    filename: emoji_u1f3bd
+  - emoji: 🎾
+    filename: emoji_u1f3be
+  - emoji: 🎿
+    filename: emoji_u1f3bf
+  - emoji: 🏀
+    filename: emoji_u1f3c0
+  - emoji: 🏁
+    filename: emoji_u1f3c1
+  - emoji: 🏂
+    filename: emoji_u1f3c2
+  - emoji: 🏃
+    filename: emoji_u1f3c3
+  - emoji: 🏄
+    filename: emoji_u1f3c4
+  - emoji: 🏆
+    filename: emoji_u1f3c6
+  - emoji: 🏇
+    filename: emoji_u1f3c7
+  - emoji: 🏈
+    filename: emoji_u1f3c8
+  - emoji: 🏉
+    filename: emoji_u1f3c9
+  - emoji: 🏊
+    filename: emoji_u1f3ca
+  - emoji: 🏠
+    filename: emoji_u1f3e0
+  - emoji: 🏡
+    filename: emoji_u1f3e1
+  - emoji: 🏢
+    filename: emoji_u1f3e2
+  - emoji: 🏣
+    filename: emoji_u1f3e3
+  - emoji: 🏤
+    filename: emoji_u1f3e4
+  - emoji: 🏥
+    filename: emoji_u1f3e5
+  - emoji: 🏦
+    filename: emoji_u1f3e6
+  - emoji: 🏧
+    filename: emoji_u1f3e7
+  - emoji: 🏨
+    filename: emoji_u1f3e8
+  - emoji: 🏩
+    filename: emoji_u1f3e9
+  - emoji: 🏪
+    filename: emoji_u1f3ea
+  - emoji: 🏫
+    filename: emoji_u1f3eb
+  - emoji: 🏬
+    filename: emoji_u1f3ec
+  - emoji: 🏭
+    filename: emoji_u1f3ed
+  - emoji: 🏮
+    filename: emoji_u1f3ee
+  - emoji: 🏯
+    filename: emoji_u1f3ef
+  - emoji: 🏰
+    filename: emoji_u1f3f0
+  - emoji: 🐀
+    filename: emoji_u1f400
+  - emoji: 🐁
+    filename: emoji_u1f401
+  - emoji: 🐂
+    filename: emoji_u1f402
+  - emoji: 🐃
+    filename: emoji_u1f403
+  - emoji: 🐄
+    filename: emoji_u1f404
+  - emoji: 🐅
+    filename: emoji_u1f405
+  - emoji: 🐆
+    filename: emoji_u1f406
+  - emoji: 🐇
+    filename: emoji_u1f407
+  - emoji: 🐈
+    filename: emoji_u1f408
+  - emoji: 🐉
+    filename: emoji_u1f409
+  - emoji: 🐊
+    filename: emoji_u1f40a
+  - emoji: 🐋
+    filename: emoji_u1f40b
+  - emoji: 🐌
+    filename: emoji_u1f40c
+  - emoji: 🐍
+    filename: emoji_u1f40d
+  - emoji: 🐎
+    filename: emoji_u1f40e
+  - emoji: 🐏
+    filename: emoji_u1f40f
+  - emoji: 🐐
+    filename: emoji_u1f410
+  - emoji: 🐑
+    filename: emoji_u1f411
+  - emoji: 🐒
+    filename: emoji_u1f412
+  - emoji: 🐓
+    filename: emoji_u1f413
+  - emoji: 🐔
+    filename: emoji_u1f414
+  - emoji: 🐕
+    filename: emoji_u1f415
+  - emoji: 🐖
+    filename: emoji_u1f416
+  - emoji: 🐗
+    filename: emoji_u1f417
+  - emoji: 🐘
+    filename: emoji_u1f418
+  - emoji: 🐙
+    filename: emoji_u1f419
+  - emoji: 🐚
+    filename: emoji_u1f41a
+  - emoji: 🐛
+    filename: emoji_u1f41b
+  - emoji: 🐜
+    filename: emoji_u1f41c
+  - emoji: 🐝
+    filename: emoji_u1f41d
+  - emoji: 🐞
+    filename: emoji_u1f41e
+  - emoji: 🐟
+    filename: emoji_u1f41f
+  - emoji: 🐠
+    filename: emoji_u1f420
+  - emoji: 🐡
+    filename: emoji_u1f421
+  - emoji: 🐢
+    filename: emoji_u1f422
+  - emoji: 🐣
+    filename: emoji_u1f423
+  - emoji: 🐤
+    filename: emoji_u1f424
+  - emoji: 🐥
+    filename: emoji_u1f425
+  - emoji: 🐦
+    filename: emoji_u1f426
+  - emoji: 🐧
+    filename: emoji_u1f427
+  - emoji: 🐨
+    filename: emoji_u1f428
+  - emoji: 🐩
+    filename: emoji_u1f429
+  - emoji: 🐪
+    filename: emoji_u1f42a
+  - emoji: 🐫
+    filename: emoji_u1f42b
+  - emoji: 🐬
+    filename: emoji_u1f42c
+  - emoji: 🐭
+    filename: emoji_u1f42d
+  - emoji: 🐮
+    filename: emoji_u1f42e
+  - emoji: 🐯
+    filename: emoji_u1f42f
+  - emoji: 🐰
+    filename: emoji_u1f430
+  - emoji: 🐱
+    filename: emoji_u1f431
+  - emoji: 🐲
+    filename: emoji_u1f432
+  - emoji: 🐳
+    filename: emoji_u1f433
+  - emoji: 🐴
+    filename: emoji_u1f434
+  - emoji: 🐵
+    filename: emoji_u1f435
+  - emoji: 🐶
+    filename: emoji_u1f436
+  - emoji: 🐷
+    filename: emoji_u1f437
+  - emoji: 🐸
+    filename: emoji_u1f438
+  - emoji: 🐹
+    filename: emoji_u1f439
+  - emoji: 🐺
+    filename: emoji_u1f43a
+  - emoji: 🐻
+    filename: emoji_u1f43b
+  - emoji: 🐼
+    filename: emoji_u1f43c
+  - emoji: 🐽
+    filename: emoji_u1f43d
+  - emoji: 🐾
+    filename: emoji_u1f43e
+  - emoji: 👀
+    filename: emoji_u1f440
+  - emoji: 👂
+    filename: emoji_u1f442
+  - emoji: 👃
+    filename: emoji_u1f443
+  - emoji: 👄
+    filename: emoji_u1f444
+  - emoji: 👅
+    filename: emoji_u1f445
+  - emoji: 👆
+    filename: emoji_u1f446
+  - emoji: 👇
+    filename: emoji_u1f447
+  - emoji: 👈
+    filename: emoji_u1f448
+  - emoji: 👉
+    filename: emoji_u1f449
+  - emoji: 👊
+    filename: emoji_u1f44a
+  - emoji: 👋
+    filename: emoji_u1f44b
+  - emoji: 👌
+    filename: emoji_u1f44c
+  - emoji: 👍
+    filename: emoji_u1f44d
+  - emoji: 👎
+    filename: emoji_u1f44e
+  - emoji: 👏
+    filename: emoji_u1f44f
+  - emoji: 👐
+    filename: emoji_u1f450
+  - emoji: 👑
+    filename: emoji_u1f451
+  - emoji: 👒
+    filename: emoji_u1f452
+  - emoji: 👓
+    filename: emoji_u1f453
+  - emoji: 👔
+    filename: emoji_u1f454
+  - emoji: 👕
+    filename: emoji_u1f455
+  - emoji: 👖
+    filename: emoji_u1f456
+  - emoji: 👗
+    filename: emoji_u1f457
+  - emoji: 👘
+    filename: emoji_u1f458
+  - emoji: 👙
+    filename: emoji_u1f459
+  - emoji: 👚
+    filename: emoji_u1f45a
+  - emoji: 👛
+    filename: emoji_u1f45b
+  - emoji: 👜
+    filename: emoji_u1f45c
+  - emoji: 👝
+    filename: emoji_u1f45d
+  - emoji: 👞
+    filename: emoji_u1f45e
+  - emoji: 👟
+    filename: emoji_u1f45f
+  - emoji: 👠
+    filename: emoji_u1f460
+  - emoji: 👡
+    filename: emoji_u1f461
+  - emoji: 👢
+    filename: emoji_u1f462
+  - emoji: 👣
+    filename: emoji_u1f463
+  - emoji: 👤
+    filename: emoji_u1f464
+  - emoji: 👥
+    filename: emoji_u1f465
+  - emoji: 👦
+    filename: emoji_u1f466
+  - emoji: 👧
+    filename: emoji_u1f467
+  - emoji: 👨
+    filename: emoji_u1f468
+  - emoji: 👩
+    filename: emoji_u1f469
+  - emoji: 👪
+    filename: emoji_u1f46a
+  - emoji: 👫
+    filename: emoji_u1f46b
+  - emoji: 👬
+    filename: emoji_u1f46c
+  - emoji: 👭
+    filename: emoji_u1f46d
+  - emoji: 👮
+    filename: emoji_u1f46e
+  - emoji: 👯
+    filename: emoji_u1f46f
+  - emoji: 👰
+    filename: emoji_u1f470
+  - emoji: 👱
+    filename: emoji_u1f471
+  - emoji: 👲
+    filename: emoji_u1f472
+  - emoji: 👳
+    filename: emoji_u1f473
+  - emoji: 👴
+    filename: emoji_u1f474
+  - emoji: 👵
+    filename: emoji_u1f475
+  - emoji: 👶
+    filename: emoji_u1f476
+  - emoji: 👷
+    filename: emoji_u1f477
+  - emoji: 👸
+    filename: emoji_u1f478
+  - emoji: 👹
+    filename: emoji_u1f479
+  - emoji: 👺
+    filename: emoji_u1f47a
+  - emoji: 👻
+    filename: emoji_u1f47b
+  - emoji: 👼
+    filename: emoji_u1f47c
+  - emoji: 👽
+    filename: emoji_u1f47d
+  - emoji: 👾
+    filename: emoji_u1f47e
+  - emoji: 👿
+    filename: emoji_u1f47f
+  - emoji: 💀
+    filename: emoji_u1f480
+  - emoji: 💁
+    filename: emoji_u1f481
+  - emoji: 💂
+    filename: emoji_u1f482
+  - emoji: 💃
+    filename: emoji_u1f483
+  - emoji: 💄
+    filename: emoji_u1f484
+  - emoji: 💅
+    filename: emoji_u1f485
+  - emoji: 💆
+    filename: emoji_u1f486
+  - emoji: 💇
+    filename: emoji_u1f487
+  - emoji: 💈
+    filename: emoji_u1f488
+  - emoji: 💉
+    filename: emoji_u1f489
+  - emoji: 💊
+    filename: emoji_u1f48a
+  - emoji: 💋
+    filename: emoji_u1f48b
+  - emoji: 💌
+    filename: emoji_u1f48c
+  - emoji: 💍
+    filename: emoji_u1f48d
+  - emoji: 💎
+    filename: emoji_u1f48e
+  - emoji: 💏
+    filename: emoji_u1f48f
+  - emoji: 💐
+    filename: emoji_u1f490
+  - emoji: 💑
+    filename: emoji_u1f491
+  - emoji: 💒
+    filename: emoji_u1f492
+  - emoji: 💓
+    filename: emoji_u1f493
+  - emoji: 💔
+    filename: emoji_u1f494
+  - emoji: 💕
+    filename: emoji_u1f495
+  - emoji: 💖
+    filename: emoji_u1f496
+  - emoji: 💗
+    filename: emoji_u1f497
+  - emoji: 💘
+    filename: emoji_u1f498
+  - emoji: 💙
+    filename: emoji_u1f499
+  - emoji: 💚
+    filename: emoji_u1f49a
+  - emoji: 💛
+    filename: emoji_u1f49b
+  - emoji: 💜
+    filename: emoji_u1f49c
+  - emoji: 💝
+    filename: emoji_u1f49d
+  - emoji: 💞
+    filename: emoji_u1f49e
+  - emoji: 💟
+    filename: emoji_u1f49f
+  - emoji: 💠
+    filename: emoji_u1f4a0
+  - emoji: 💡
+    filename: emoji_u1f4a1
+  - emoji: 💢
+    filename: emoji_u1f4a2
+  - emoji: 💣
+    filename: emoji_u1f4a3
+  - emoji: 💤
+    filename: emoji_u1f4a4
+  - emoji: 💥
+    filename: emoji_u1f4a5
+  - emoji: 💦
+    filename: emoji_u1f4a6
+  - emoji: 💧
+    filename: emoji_u1f4a7
+  - emoji: 💨
+    filename: emoji_u1f4a8
+  - emoji: 💩
+    filename: emoji_u1f4a9
+  - emoji: 💪
+    filename: emoji_u1f4aa
+  - emoji: 💫
+    filename: emoji_u1f4ab
+  - emoji: 💬
+    filename: emoji_u1f4ac
+  - emoji: 💭
+    filename: emoji_u1f4ad
+  - emoji: 💮
+    filename: emoji_u1f4ae
+  - emoji: 💯
+    filename: emoji_u1f4af
+  - emoji: 💰
+    filename: emoji_u1f4b0
+  - emoji: 💱
+    filename: emoji_u1f4b1
+  - emoji: 💲
+    filename: emoji_u1f4b2
+  - emoji: 💳
+    filename: emoji_u1f4b3
+  - emoji: 💴
+    filename: emoji_u1f4b4
+  - emoji: 💵
+    filename: emoji_u1f4b5
+  - emoji: 💶
+    filename: emoji_u1f4b6
+  - emoji: 💷
+    filename: emoji_u1f4b7
+  - emoji: 💸
+    filename: emoji_u1f4b8
+  - emoji: 💹
+    filename: emoji_u1f4b9
+  - emoji: 💺
+    filename: emoji_u1f4ba
+  - emoji: 💻
+    filename: emoji_u1f4bb
+  - emoji: 💼
+    filename: emoji_u1f4bc
+  - emoji: 💽
+    filename: emoji_u1f4bd
+  - emoji: 💾
+    filename: emoji_u1f4be
+  - emoji: 💿
+    filename: emoji_u1f4bf
+  - emoji: 📀
+    filename: emoji_u1f4c0
+  - emoji: 📁
+    filename: emoji_u1f4c1
+  - emoji: 📂
+    filename: emoji_u1f4c2
+  - emoji: 📃
+    filename: emoji_u1f4c3
+  - emoji: 📄
+    filename: emoji_u1f4c4
+  - emoji: 📅
+    filename: emoji_u1f4c5
+  - emoji: 📆
+    filename: emoji_u1f4c6
+  - emoji: 📇
+    filename: emoji_u1f4c7
+  - emoji: 📈
+    filename: emoji_u1f4c8
+  - emoji: 📉
+    filename: emoji_u1f4c9
+  - emoji: 📊
+    filename: emoji_u1f4ca
+  - emoji: 📋
+    filename: emoji_u1f4cb
+  - emoji: 📌
+    filename: emoji_u1f4cc
+  - emoji: 📍
+    filename: emoji_u1f4cd
+  - emoji: 📎
+    filename: emoji_u1f4ce
+  - emoji: 📏
+    filename: emoji_u1f4cf
+  - emoji: 📐
+    filename: emoji_u1f4d0
+  - emoji: 📑
+    filename: emoji_u1f4d1
+  - emoji: 📒
+    filename: emoji_u1f4d2
+  - emoji: 📓
+    filename: emoji_u1f4d3
+  - emoji: 📔
+    filename: emoji_u1f4d4
+  - emoji: 📕
+    filename: emoji_u1f4d5
+  - emoji: 📖
+    filename: emoji_u1f4d6
+  - emoji: 📗
+    filename: emoji_u1f4d7
+  - emoji: 📘
+    filename: emoji_u1f4d8
+  - emoji: 📙
+    filename: emoji_u1f4d9
+  - emoji: 📚
+    filename: emoji_u1f4da
+  - emoji: 📛
+    filename: emoji_u1f4db
+  - emoji: 📜
+    filename: emoji_u1f4dc
+  - emoji: 📝
+    filename: emoji_u1f4dd
+  - emoji: 📞
+    filename: emoji_u1f4de
+  - emoji: 📟
+    filename: emoji_u1f4df
+  - emoji: 📠
+    filename: emoji_u1f4e0
+  - emoji: 📡
+    filename: emoji_u1f4e1
+  - emoji: 📢
+    filename: emoji_u1f4e2
+  - emoji: 📣
+    filename: emoji_u1f4e3
+  - emoji: 📤
+    filename: emoji_u1f4e4
+  - emoji: 📥
+    filename: emoji_u1f4e5
+  - emoji: 📦
+    filename: emoji_u1f4e6
+  - emoji: 📧
+    filename: emoji_u1f4e7
+  - emoji: 📨
+    filename: emoji_u1f4e8
+  - emoji: 📩
+    filename: emoji_u1f4e9
+  - emoji: 📪
+    filename: emoji_u1f4ea
+  - emoji: 📫
+    filename: emoji_u1f4eb
+  - emoji: 📬
+    filename: emoji_u1f4ec
+  - emoji: 📭
+    filename: emoji_u1f4ed
+  - emoji: 📮
+    filename: emoji_u1f4ee
+  - emoji: 📯
+    filename: emoji_u1f4ef
+  - emoji: 📰
+    filename: emoji_u1f4f0
+  - emoji: 📱
+    filename: emoji_u1f4f1
+  - emoji: 📲
+    filename: emoji_u1f4f2
+  - emoji: 📳
+    filename: emoji_u1f4f3
+  - emoji: 📴
+    filename: emoji_u1f4f4
+  - emoji: 📵
+    filename: emoji_u1f4f5
+  - emoji: 📶
+    filename: emoji_u1f4f6
+  - emoji: 📷
+    filename: emoji_u1f4f7
+  - emoji: 📹
+    filename: emoji_u1f4f9
+  - emoji: 📺
+    filename: emoji_u1f4fa
+  - emoji: 📻
+    filename: emoji_u1f4fb
+  - emoji: 📼
+    filename: emoji_u1f4fc
+  - emoji: 🔀
+    filename: emoji_u1f500
+  - emoji: 🔁
+    filename: emoji_u1f501
+  - emoji: 🔂
+    filename: emoji_u1f502
+  - emoji: 🔃
+    filename: emoji_u1f503
+  - emoji: 🔄
+    filename: emoji_u1f504
+  - emoji: 🔅
+    filename: emoji_u1f505
+  - emoji: 🔆
+    filename: emoji_u1f506
+  - emoji: 🔇
+    filename: emoji_u1f507
+  - emoji: 🔈
+    filename: emoji_u1f508
+  - emoji: 🔉
+    filename: emoji_u1f509
+  - emoji: 🔊
+    filename: emoji_u1f50a
+  - emoji: 🔋
+    filename: emoji_u1f50b
+  - emoji: 🔌
+    filename: emoji_u1f50c
+  - emoji: 🔍
+    filename: emoji_u1f50d
+  - emoji: 🔎
+    filename: emoji_u1f50e
+  - emoji: 🔏
+    filename: emoji_u1f50f
+  - emoji: 🔐
+    filename: emoji_u1f510
+  - emoji: 🔑
+    filename: emoji_u1f511
+  - emoji: 🔒
+    filename: emoji_u1f512
+  - emoji: 🔓
+    filename: emoji_u1f513
+  - emoji: 🔔
+    filename: emoji_u1f514
+  - emoji: 🔕
+    filename: emoji_u1f515
+  - emoji: 🔖
+    filename: emoji_u1f516
+  - emoji: 🔗
+    filename: emoji_u1f517
+  - emoji: 🔘
+    filename: emoji_u1f518
+  - emoji: 🔙
+    filename: emoji_u1f519
+  - emoji: 🔚
+    filename: emoji_u1f51a
+  - emoji: 🔛
+    filename: emoji_u1f51b
+  - emoji: 🔜
+    filename: emoji_u1f51c
+  - emoji: 🔝
+    filename: emoji_u1f51d
+  - emoji: 🔞
+    filename: emoji_u1f51e
+  - emoji: 🔟
+    filename: emoji_u1f51f
+  - emoji: 🔠
+    filename: emoji_u1f520
+  - emoji: 🔡
+    filename: emoji_u1f521
+  - emoji: 🔢
+    filename: emoji_u1f522
+  - emoji: 🔣
+    filename: emoji_u1f523
+  - emoji: 🔤
+    filename: emoji_u1f524
+  - emoji: 🔥
+    filename: emoji_u1f525
+  - emoji: 🔦
+    filename: emoji_u1f526
+  - emoji: 🔧
+    filename: emoji_u1f527
+  - emoji: 🔨
+    filename: emoji_u1f528
+  - emoji: 🔩
+    filename: emoji_u1f529
+  - emoji: 🔪
+    filename: emoji_u1f52a
+  - emoji: 🔫
+    filename: emoji_u1f52b
+  - emoji: 🔬
+    filename: emoji_u1f52c
+  - emoji: 🔭
+    filename: emoji_u1f52d
+  - emoji: 🔮
+    filename: emoji_u1f52e
+  - emoji: 🔯
+    filename: emoji_u1f52f
+  - emoji: 🔰
+    filename: emoji_u1f530
+  - emoji: 🔱
+    filename: emoji_u1f531
+  - emoji: 🔲
+    filename: emoji_u1f532
+  - emoji: 🔳
+    filename: emoji_u1f533
+  - emoji: 🔴
+    filename: emoji_u1f534
+  - emoji: 🔵
+    filename: emoji_u1f535
+  - emoji: 🔶
+    filename: emoji_u1f536
+  - emoji: 🔷
+    filename: emoji_u1f537
+  - emoji: 🔸
+    filename: emoji_u1f538
+  - emoji: 🔹
+    filename: emoji_u1f539
+  - emoji: 🔺
+    filename: emoji_u1f53a
+  - emoji: 🔻
+    filename: emoji_u1f53b
+  - emoji: 🔼
+    filename: emoji_u1f53c
+  - emoji: 🔽
+    filename: emoji_u1f53d
+  - emoji: 🕐
+    filename: emoji_u1f550
+  - emoji: 🕑
+    filename: emoji_u1f551
+  - emoji: 🕒
+    filename: emoji_u1f552
+  - emoji: 🕓
+    filename: emoji_u1f553
+  - emoji: 🕔
+    filename: emoji_u1f554
+  - emoji: 🕕
+    filename: emoji_u1f555
+  - emoji: 🕖
+    filename: emoji_u1f556
+  - emoji: 🕗
+    filename: emoji_u1f557
+  - emoji: 🕘
+    filename: emoji_u1f558
+  - emoji: 🕙
+    filename: emoji_u1f559
+  - emoji: 🕚
+    filename: emoji_u1f55a
+  - emoji: 🕛
+    filename: emoji_u1f55b
+  - emoji: 🕜
+    filename: emoji_u1f55c
+  - emoji: 🕝
+    filename: emoji_u1f55d
+  - emoji: 🕞
+    filename: emoji_u1f55e
+  - emoji: 🕟
+    filename: emoji_u1f55f
+  - emoji: 🕠
+    filename: emoji_u1f560
+  - emoji: 🕡
+    filename: emoji_u1f561
+  - emoji: 🕢
+    filename: emoji_u1f562
+  - emoji: 🕣
+    filename: emoji_u1f563
+  - emoji: 🕤
+    filename: emoji_u1f564
+  - emoji: 🕥
+    filename: emoji_u1f565
+  - emoji: 🕦
+    filename: emoji_u1f566
+  - emoji: 🕧
+    filename: emoji_u1f567
+  - emoji: 🗻
+    filename: emoji_u1f5fb
+  - emoji: 🗼
+    filename: emoji_u1f5fc
+  - emoji: 🗽
+    filename: emoji_u1f5fd
+  - emoji: 🗾
+    filename: emoji_u1f5fe
+  - emoji: 🗿
+    filename: emoji_u1f5ff
+  - emoji: 😀
+    filename: emoji_u1f600
+  - emoji: 😁
+    filename: emoji_u1f601
+  - emoji: 😂
+    filename: emoji_u1f602
+  - emoji: 😃
+    filename: emoji_u1f603
+  - emoji: 😄
+    filename: emoji_u1f604
+  - emoji: 😅
+    filename: emoji_u1f605
+  - emoji: 😆
+    filename: emoji_u1f606
+  - emoji: 😇
+    filename: emoji_u1f607
+  - emoji: 😈
+    filename: emoji_u1f608
+  - emoji: 😉
+    filename: emoji_u1f609
+  - emoji: 😊
+    filename: emoji_u1f60a
+  - emoji: 😋
+    filename: emoji_u1f60b
+  - emoji: 😌
+    filename: emoji_u1f60c
+  - emoji: 😍
+    filename: emoji_u1f60d
+  - emoji: 😎
+    filename: emoji_u1f60e
+  - emoji: 😏
+    filename: emoji_u1f60f
+  - emoji: 😐
+    filename: emoji_u1f610
+  - emoji: 😑
+    filename: emoji_u1f611
+  - emoji: 😒
+    filename: emoji_u1f612
+  - emoji: 😓
+    filename: emoji_u1f613
+  - emoji: 😔
+    filename: emoji_u1f614
+  - emoji: 😕
+    filename: emoji_u1f615
+  - emoji: 😖
+    filename: emoji_u1f616
+  - emoji: 😗
+    filename: emoji_u1f617
+  - emoji: 😘
+    filename: emoji_u1f618
+  - emoji: 😙
+    filename: emoji_u1f619
+  - emoji: 😚
+    filename: emoji_u1f61a
+  - emoji: 😛
+    filename: emoji_u1f61b
+  - emoji: 😜
+    filename: emoji_u1f61c
+  - emoji: 😝
+    filename: emoji_u1f61d
+  - emoji: 😞
+    filename: emoji_u1f61e
+  - emoji: 😟
+    filename: emoji_u1f61f
+  - emoji: 😠
+    filename: emoji_u1f620
+  - emoji: 😡
+    filename: emoji_u1f621
+  - emoji: 😢
+    filename: emoji_u1f622
+  - emoji: 😣
+    filename: emoji_u1f623
+  - emoji: 😤
+    filename: emoji_u1f624
+  - emoji: 😥
+    filename: emoji_u1f625
+  - emoji: 😦
+    filename: emoji_u1f626
+  - emoji: 😧
+    filename: emoji_u1f627
+  - emoji: 😨
+    filename: emoji_u1f628
+  - emoji: 😩
+    filename: emoji_u1f629
+  - emoji: 😪
+    filename: emoji_u1f62a
+  - emoji: 😫
+    filename: emoji_u1f62b
+  - emoji: 😬
+    filename: emoji_u1f62c
+  - emoji: 😭
+    filename: emoji_u1f62d
+  - emoji: 😮
+    filename: emoji_u1f62e
+  - emoji: 😯
+    filename: emoji_u1f62f
+  - emoji: 😰
+    filename: emoji_u1f630
+  - emoji: 😱
+    filename: emoji_u1f631
+  - emoji: 😲
+    filename: emoji_u1f632
+  - emoji: 😳
+    filename: emoji_u1f633
+  - emoji: 😴
+    filename: emoji_u1f634
+  - emoji: 😵
+    filename: emoji_u1f635
+  - emoji: 😶
+    filename: emoji_u1f636
+  - emoji: 😷
+    filename: emoji_u1f637
+  - emoji: 😸
+    filename: emoji_u1f638
+  - emoji: 😹
+    filename: emoji_u1f639
+  - emoji: 😺
+    filename: emoji_u1f63a
+  - emoji: 😻
+    filename: emoji_u1f63b
+  - emoji: 😼
+    filename: emoji_u1f63c
+  - emoji: 😽
+    filename: emoji_u1f63d
+  - emoji: 😾
+    filename: emoji_u1f63e
+  - emoji: 😿
+    filename: emoji_u1f63f
+  - emoji: 🙀
+    filename: emoji_u1f640
+  - emoji: 🙅
+    filename: emoji_u1f645
+  - emoji: 🙆
+    filename: emoji_u1f646
+  - emoji: 🙇
+    filename: emoji_u1f647
+  - emoji: 🙈
+    filename: emoji_u1f648
+  - emoji: 🙉
+    filename: emoji_u1f649
+  - emoji: 🙊
+    filename: emoji_u1f64a
+  - emoji: 🙋
+    filename: emoji_u1f64b
+  - emoji: 🙌
+    filename: emoji_u1f64c
+  - emoji: 🙍
+    filename: emoji_u1f64d
+  - emoji: 🙎
+    filename: emoji_u1f64e
+  - emoji: 🙏
+    filename: emoji_u1f64f
+  - emoji: 🚀
+    filename: emoji_u1f680
+  - emoji: 🚁
+    filename: emoji_u1f681
+  - emoji: 🚂
+    filename: emoji_u1f682
+  - emoji: 🚃
+    filename: emoji_u1f683
+  - emoji: 🚄
+    filename: emoji_u1f684
+  - emoji: 🚅
+    filename: emoji_u1f685
+  - emoji: 🚆
+    filename: emoji_u1f686
+  - emoji: 🚇
+    filename: emoji_u1f687
+  - emoji: 🚈
+    filename: emoji_u1f688
+  - emoji: 🚉
+    filename: emoji_u1f689
+  - emoji: 🚊
+    filename: emoji_u1f68a
+  - emoji: 🚋
+    filename: emoji_u1f68b
+  - emoji: 🚌
+    filename: emoji_u1f68c
+  - emoji: 🚍
+    filename: emoji_u1f68d
+  - emoji: 🚎
+    filename: emoji_u1f68e
+  - emoji: 🚏
+    filename: emoji_u1f68f
+  - emoji: 🚐
+    filename: emoji_u1f690
+  - emoji: 🚑
+    filename: emoji_u1f691
+  - emoji: 🚒
+    filename: emoji_u1f692
+  - emoji: 🚓
+    filename: emoji_u1f693
+  - emoji: 🚔
+    filename: emoji_u1f694
+  - emoji: 🚕
+    filename: emoji_u1f695
+  - emoji: 🚖
+    filename: emoji_u1f696
+  - emoji: 🚗
+    filename: emoji_u1f697
+  - emoji: 🚘
+    filename: emoji_u1f698
+  - emoji: 🚙
+    filename: emoji_u1f699
+  - emoji: 🚚
+    filename: emoji_u1f69a
+  - emoji: 🚛
+    filename: emoji_u1f69b
+  - emoji: 🚜
+    filename: emoji_u1f69c
+  - emoji: 🚝
+    filename: emoji_u1f69d
+  - emoji: 🚞
+    filename: emoji_u1f69e
+  - emoji: 🚟
+    filename: emoji_u1f69f
+  - emoji: 🚠
+    filename: emoji_u1f6a0
+  - emoji: 🚡
+    filename: emoji_u1f6a1
+  - emoji: 🚢
+    filename: emoji_u1f6a2
+  - emoji: 🚣
+    filename: emoji_u1f6a3
+  - emoji: 🚤
+    filename: emoji_u1f6a4
+  - emoji: 🚥
+    filename: emoji_u1f6a5
+  - emoji: 🚦
+    filename: emoji_u1f6a6
+  - emoji: 🚧
+    filename: emoji_u1f6a7
+  - emoji: 🚨
+    filename: emoji_u1f6a8
+  - emoji: 🚩
+    filename: emoji_u1f6a9
+  - emoji: 🚪
+    filename: emoji_u1f6aa
+  - emoji: 🚫
+    filename: emoji_u1f6ab
+  - emoji: 🚬
+    filename: emoji_u1f6ac
+  - emoji: 🚭
+    filename: emoji_u1f6ad
+  - emoji: 🚮
+    filename: emoji_u1f6ae
+  - emoji: 🚯
+    filename: emoji_u1f6af
+  - emoji: 🚰
+    filename: emoji_u1f6b0
+  - emoji: 🚱
+    filename: emoji_u1f6b1
+  - emoji: 🚲
+    filename: emoji_u1f6b2
+  - emoji: 🚳
+    filename: emoji_u1f6b3
+  - emoji: 🚴
+    filename: emoji_u1f6b4
+  - emoji: 🚵
+    filename: emoji_u1f6b5
+  - emoji: 🚶
+    filename: emoji_u1f6b6
+  - emoji: 🚷
+    filename: emoji_u1f6b7
+  - emoji: 🚸
+    filename: emoji_u1f6b8
+  - emoji: 🚹
+    filename: emoji_u1f6b9
+  - emoji: 🚺
+    filename: emoji_u1f6ba
+  - emoji: 🚻
+    filename: emoji_u1f6bb
+  - emoji: 🚼
+    filename: emoji_u1f6bc
+  - emoji: 🚽
+    filename: emoji_u1f6bd
+  - emoji: 🚾
+    filename: emoji_u1f6be
+  - emoji: 🚿
+    filename: emoji_u1f6bf
+  - emoji: 🛀
+    filename: emoji_u1f6c0
+  - emoji: 🛁
+    filename: emoji_u1f6c1
+  - emoji: 🛂
+    filename: emoji_u1f6c2
+  - emoji: 🛃
+    filename: emoji_u1f6c3
+  - emoji: 🛄
+    filename: emoji_u1f6c4
+  - emoji: 🛅
+    filename: emoji_u1f6c5
+  - emoji: ‼
+    filename: emoji_u203c
+  - emoji: ⁉
+    filename: emoji_u2049
+  - emoji: ⃣
+    filename: emoji_u20e3
+  - emoji: ™
+    filename: emoji_u2122
+  - emoji: ℹ
+    filename: emoji_u2139
+  - emoji: ↔
+    filename: emoji_u2194
+  - emoji: ↕
+    filename: emoji_u2195
+  - emoji: ↖
+    filename: emoji_u2196
+  - emoji: ↗
+    filename: emoji_u2197
+  - emoji: ↘
+    filename: emoji_u2198
+  - emoji: ↙
+    filename: emoji_u2199
+  - emoji: ↩
+    filename: emoji_u21a9
+  - emoji: ↪
+    filename: emoji_u21aa
+  - emoji: ⌚
+    filename: emoji_u231a
+  - emoji: ⌛
+    filename: emoji_u231b
+  - emoji: ⏩
+    filename: emoji_u23e9
+  - emoji: ⏪
+    filename: emoji_u23ea
+  - emoji: ⏫
+    filename: emoji_u23eb
+  - emoji: ⏬
+    filename: emoji_u23ec
+  - emoji: ⏰
+    filename: emoji_u23f0
+  - emoji: ⏳
+    filename: emoji_u23f3
+  - emoji: Ⓜ
+    filename: emoji_u24c2
+  - emoji: ▪
+    filename: emoji_u25aa
+  - emoji: ▫
+    filename: emoji_u25ab
+  - emoji: ▶
+    filename: emoji_u25b6
+  - emoji: ◀
+    filename: emoji_u25c0
+  - emoji: ◻
+    filename: emoji_u25fb
+  - emoji: ◼
+    filename: emoji_u25fc
+  - emoji: ◽
+    filename: emoji_u25fd
+  - emoji: ◾
+    filename: emoji_u25fe
+  - emoji: ☀
+    filename: emoji_u2600
+  - emoji: ☁
+    filename: emoji_u2601
+  - emoji: ☎
+    filename: emoji_u260e
+  - emoji: ☑
+    filename: emoji_u2611
+  - emoji: ☔
+    filename: emoji_u2614
+  - emoji: ☕
+    filename: emoji_u2615
+  - emoji: ☝
+    filename: emoji_u261d
+  - emoji: ☺
+    filename: emoji_u263a
+  - emoji: ♈
+    filename: emoji_u2648
+  - emoji: ♉
+    filename: emoji_u2649
+  - emoji: ♊
+    filename: emoji_u264a
+  - emoji: ♋
+    filename: emoji_u264b
+  - emoji: ♌
+    filename: emoji_u264c
+  - emoji: ♍
+    filename: emoji_u264d
+  - emoji: ♎
+    filename: emoji_u264e
+  - emoji: ♏
+    filename: emoji_u264f
+  - emoji: ♐
+    filename: emoji_u2650
+  - emoji: ♑
+    filename: emoji_u2651
+  - emoji: ♒
+    filename: emoji_u2652
+  - emoji: ♓
+    filename: emoji_u2653
+  - emoji: ♠
+    filename: emoji_u2660
+  - emoji: ♣
+    filename: emoji_u2663
+  - emoji: ♥
+    filename: emoji_u2665
+  - emoji: ♦
+    filename: emoji_u2666
+  - emoji: ♨
+    filename: emoji_u2668
+  - emoji: ♻
+    filename: emoji_u267b
+  - emoji: ♿
+    filename: emoji_u267f
+  - emoji: ⚓
+    filename: emoji_u2693
+  - emoji: ⚠
+    filename: emoji_u26a0
+  - emoji: ⚡
+    filename: emoji_u26a1
+  - emoji: ⚪
+    filename: emoji_u26aa
+  - emoji: ⚫
+    filename: emoji_u26ab
+  - emoji: ⚽
+    filename: emoji_u26bd
+  - emoji: ⚾
+    filename: emoji_u26be
+  - emoji: ⛄
+    filename: emoji_u26c4
+  - emoji: ⛅
+    filename: emoji_u26c5
+  - emoji: ⛎
+    filename: emoji_u26ce
+  - emoji: ⛔
+    filename: emoji_u26d4
+  - emoji: ⛪
+    filename: emoji_u26ea
+  - emoji: ⛲
+    filename: emoji_u26f2
+  - emoji: ⛳
+    filename: emoji_u26f3
+  - emoji: ⛵
+    filename: emoji_u26f5
+  - emoji: ⛺
+    filename: emoji_u26fa
+  - emoji: ⛽
+    filename: emoji_u26fd
+  - emoji: ✂
+    filename: emoji_u2702
+  - emoji: ✅
+    filename: emoji_u2705
+  - emoji: ✈
+    filename: emoji_u2708
+  - emoji: ✉
+    filename: emoji_u2709
+  - emoji: ✊
+    filename: emoji_u270a
+  - emoji: ✋
+    filename: emoji_u270b
+  - emoji: ✌
+    filename: emoji_u270c
+  - emoji: ✏
+    filename: emoji_u270f
+  - emoji: ✒
+    filename: emoji_u2712
+  - emoji: ✔
+    filename: emoji_u2714
+  - emoji: ✖
+    filename: emoji_u2716
+  - emoji: ✨
+    filename: emoji_u2728
+  - emoji: ✳
+    filename: emoji_u2733
+  - emoji: ✴
+    filename: emoji_u2734
+  - emoji: ❄
+    filename: emoji_u2744
+  - emoji: ❇
+    filename: emoji_u2747
+  - emoji: ❌
+    filename: emoji_u274c
+  - emoji: ❎
+    filename: emoji_u274e
+  - emoji: ❓
+    filename: emoji_u2753
+  - emoji: ❔
+    filename: emoji_u2754
+  - emoji: ❕
+    filename: emoji_u2755
+  - emoji: ❗
+    filename: emoji_u2757
+  - emoji: ❤
+    filename: emoji_u2764
+  - emoji: ➕
+    filename: emoji_u2795
+  - emoji: ➖
+    filename: emoji_u2796
+  - emoji: ➗
+    filename: emoji_u2797
+  - emoji: ➡
+    filename: emoji_u27a1
+  - emoji: ➰
+    filename: emoji_u27b0
+  - emoji: ➿
+    filename: emoji_u27bf
+  - emoji: ⤴
+    filename: emoji_u2934
+  - emoji: ⤵
+    filename: emoji_u2935
+  - emoji: ⬅
+    filename: emoji_u2b05
+  - emoji: ⬆
+    filename: emoji_u2b06
+  - emoji: ⬇
+    filename: emoji_u2b07
+  - emoji: ⬛
+    filename: emoji_u2b1b
+  - emoji: ⬜
+    filename: emoji_u2b1c
+  - emoji: ⭐
+    filename: emoji_u2b50
+  - emoji: ⭕
+    filename: emoji_u2b55
+  - emoji: 〰
+    filename: emoji_u3030
+  - emoji: 〽
+    filename: emoji_u303d
+  - emoji: ㊗
+    filename: emoji_u3297
+  - emoji: ㊙
+    filename: emoji_u3299
