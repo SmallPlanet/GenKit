@@ -8,20 +8,23 @@ import CommandLineKit
 import FileKit
 import Foundation
 import Mustache
+import Stencil
 import Yaml
 
 
 let cli = CommandLine()
-let inputPath = StringOption(shortFlag: "i", longFlag: "input", required: true,
-                             helpMessage: "Input yaml file")
-let templatePath = StringOption(shortFlag: "t", longFlag: "template", required: true,
-                             helpMessage: "Stencil template file")
-let outputPath = StringOption(shortFlag: "o", longFlag: "output", required: false,
-                             helpMessage: "Output file (writes to stdout if not provided)")
-let comparePaths = MultiStringOption(shortFlag: "c", longFlag: "compare", required: false,
-                             helpMessage: "Files to compare modification dates against (multiple values separated by space)")
+let inputPath =
+    StringOption(shortFlag: "i", longFlag: "input", required: true, helpMessage: "Input yaml file")
+let templatePath =
+    StringOption(shortFlag: "t", longFlag: "template", required: true,  helpMessage: "Stencil template file")
+let stencilOption =
+    BoolOption(shortFlag: "s", longFlag: "stencil", required: false, helpMessage: "Use Stencil instead of Mustache template")
+let outputPath =
+    StringOption(shortFlag: "o", longFlag: "output", required: false, helpMessage: "Output file (writes to stdout if not provided)")
+let comparePaths =
+    MultiStringOption(shortFlag: "c", longFlag: "compare", required: false, helpMessage: "Files to compare modification dates against (multiple values separated by space)")
 
-cli.setOptions(inputPath, templatePath, outputPath, comparePaths)
+cli.setOptions(inputPath, templatePath, stencilOption, outputPath, comparePaths)
 
 do {
     try cli.parse()
@@ -49,6 +52,7 @@ guard let yaml = CodeGen.loadYAML(fromFile: inputFile)  else {
 let input = Path(inputFile)
 let output = outputPath.value.map{ Path($0) }
 let template = Path(templateFile)
+let useStencil = stencilOption.wasSet
 
 
 var performOperation: Bool {
@@ -83,8 +87,15 @@ if output == nil || performOperation {
   do {
     // Read Template file into strings
     let templateContent = try String(contentsOfFile: templateFile, encoding: String.Encoding.utf8)
-    let template = try Template(string: templateContent)
-    let rendered = try template.render(with: Box(dataDictionary))
+    let rendered: String
+
+    if useStencil {
+        rendered = try Environment().renderTemplate(string: templateContent, context: dataDictionary)
+    } else {
+        let template = try Template(string: templateContent)
+        rendered = try template.render(with: Box(dataDictionary))
+    }
+    
     if let output = output {
         print("\(output.exists ? "Regenerating" : "Creating") output file: \(output.fileName)")
         try TextFile(path: output).write(rendered, atomically: true)
