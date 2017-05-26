@@ -73,16 +73,27 @@ var performOperation: Bool {
     //      2. Template file is newer than output file     OR
     //      3. Optional compare files are newer than output file OR
     //      4. Output file doesn't exist.
-    return inputNewer || templateNewer || compareFilesNewer
+    return inputNewer || templateNewer || compareFilesNewer || !output.exists
 }
 
 if output == nil || performOperation {
 
   // Convert YAML data into standard Swift types Array/Dictionary/String/...
-  guard let dataDictionary = yaml.convert() as? [String: Any] else {
+  guard var dataDictionary = yaml.convert() as? [String: Any] else {
     print("Error: top level container of YAML file must be a dictionary.")
     exit(EX_DATAERR)
   }
+    
+    // add a dictionary with meta information only if the key does not already exist
+    if !dataDictionary.contains(where: { $0.0 == "GenKit" }) {
+        let meta: [String:Any] = [
+            "datetime": Date().description,
+            "inputPath": inputPath.value ?? "",
+            "outputPath": outputPath.value ?? "stdout",
+            "templatePath": templatePath.value ?? ""
+        ]
+        dataDictionary["GenKit"] = meta
+    }
 
   do {
     // Read Template file into strings
@@ -104,6 +115,9 @@ if output == nil || performOperation {
     }
   } catch let error as MustacheError {
     print(error.description)
+    exit(EX_DATAERR)
+  } catch let error {
+    print(error)
     exit(EX_DATAERR)
   }
 
