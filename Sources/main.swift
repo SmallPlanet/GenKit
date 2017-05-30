@@ -12,19 +12,21 @@ import Stencil
 import Yaml
 
 
-let cli = CommandLine()
 let inputPath =
     StringOption(shortFlag: "i", longFlag: "input", required: true, helpMessage: "Input yaml file")
 let templatePath =
-    StringOption(shortFlag: "t", longFlag: "template", required: true,  helpMessage: "Stencil template file")
+    StringOption(shortFlag: "t", longFlag: "template", required: true, helpMessage: "Stencil template file")
 let stencilOption =
     BoolOption(shortFlag: "s", longFlag: "stencil", required: false, helpMessage: "Use Stencil instead of Mustache template")
 let outputPath =
     StringOption(shortFlag: "o", longFlag: "output", required: false, helpMessage: "Output file (writes to stdout if not provided)")
 let comparePaths =
     MultiStringOption(shortFlag: "c", longFlag: "compare", required: false, helpMessage: "Files to compare modification dates against (multiple values separated by space)")
+let quietOption =
+    BoolOption(shortFlag: "q", longFlag: "quiet", required: false, helpMessage: "Suppress non-error output")
 
-cli.setOptions(inputPath, templatePath, stencilOption, outputPath, comparePaths)
+let cli = CommandLine()
+cli.setOptions(inputPath, templatePath, stencilOption, outputPath, comparePaths, quietOption)
 
 do {
     try cli.parse()
@@ -53,6 +55,7 @@ let input = Path(inputFile)
 let output = outputPath.value.map{ Path($0) }
 let template = Path(templateFile)
 let useStencil = stencilOption.wasSet
+let quiet = quietOption.wasSet
 
 
 var performOperation: Bool {
@@ -108,7 +111,9 @@ if output == nil || performOperation {
     }
     
     if let output = output {
-        print("\(output.exists ? "Regenerating" : "Creating") output file: \(output.fileName)")
+        if !quiet {
+            print("\(output.exists ? "Regenerating" : "Creating") output file: \(output.fileName)")
+        }
         try TextFile(path: output).write(rendered, atomically: true)
     } else {
         print(rendered)
@@ -121,7 +126,7 @@ if output == nil || performOperation {
     exit(EX_DATAERR)
   }
 
-} else {
+} else if !quiet {
   print("Skipping \(output?.fileName ?? input.fileName)")
 }
 
