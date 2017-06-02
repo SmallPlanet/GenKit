@@ -12,18 +12,12 @@ import Stencil
 import Yaml
 
 
-let inputPath =
-    StringOption(shortFlag: "i", longFlag: "input", required: true, helpMessage: "Input yaml file")
-let templatePath =
-    StringOption(shortFlag: "t", longFlag: "template", required: true, helpMessage: "Stencil template file")
-let stencilOption =
-    BoolOption(shortFlag: "s", longFlag: "stencil", required: false, helpMessage: "Use Stencil instead of Mustache template")
-let outputPath =
-    StringOption(shortFlag: "o", longFlag: "output", required: false, helpMessage: "Output file (writes to stdout if not provided)")
-let comparePaths =
-    MultiStringOption(shortFlag: "c", longFlag: "compare", required: false, helpMessage: "Files to compare modification dates against (multiple values separated by space)")
-let quietOption =
-    BoolOption(shortFlag: "q", longFlag: "quiet", required: false, helpMessage: "Suppress non-error output")
+let inputPath = StringOption(shortFlag: "i", longFlag: "input", required: true, helpMessage: "Input yaml file")
+let templatePath = StringOption(shortFlag: "t", longFlag: "template", required: true, helpMessage: "Stencil template file")
+let stencilOption = BoolOption(shortFlag: "s", longFlag: "stencil", helpMessage: "Use Stencil instead of Mustache template")
+let outputPath = StringOption(shortFlag: "o", longFlag: "output", helpMessage: "Output file (writes to stdout if not provided)")
+let comparePaths = MultiStringOption(shortFlag: "c", longFlag: "compare", helpMessage: "Files to compare modification dates against (multiple values separated by space)")
+let quietOption = BoolOption(shortFlag: "q", longFlag: "quiet", helpMessage: "Suppress non-error output")
 
 let cli = CommandLine()
 cli.setOptions(inputPath, templatePath, stencilOption, outputPath, comparePaths, quietOption)
