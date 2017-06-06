@@ -8,9 +8,6 @@ import GenKit
 import CommandLineKit
 import FileKit
 import Foundation
-import Mustache
-import Stencil
-import Yaml
 
 
 let inputPath = StringOption(shortFlag: "i", longFlag: "input", required: true, helpMessage: "Input yaml file")
@@ -31,18 +28,13 @@ do {
 }
 
 guard let inputFile = inputPath.value else {
-  print("Error understanding input file path")
-  exit(EX_USAGE)
+    print("Error understanding input file path")
+    exit(EX_USAGE)
 }
 
 guard let templateFile = templatePath.value else {
-  print("Error understanding template file path")
-  exit(EX_USAGE)
-}
-
-guard let yaml = CodeGen.loadYAML(fromFile: inputFile)  else {
-  print("Error reading input YAML file")
-  exit(EX_DATAERR)
+    print("Error understanding template file path")
+    exit(EX_USAGE)
 }
 
 
@@ -55,7 +47,7 @@ let quiet = quietOption.wasSet
 
 var performOperation: Bool {
     guard let output = output else { return true }
-    
+
     // check if any of the optional compare files are newer than output file, if so, force the template generation
 
     let compareFilesNewer = comparePaths.value?.map{ Path($0) }
@@ -76,53 +68,29 @@ var performOperation: Bool {
 
 if output == nil || performOperation {
 
-  // Convert YAML data into standard Swift types Array/Dictionary/String/...
-  guard var dataDictionary = yaml.convert() as? [String: Any] else {
-    print("Error: top level container of YAML file must be a dictionary.")
-    exit(EX_DATAERR)
-  }
-    
-    // add a dictionary with meta information only if the key does not already exist
-    if !dataDictionary.contains(where: { $0.0 == "GenKit" }) {
-        let meta: [String:Any] = [
-            "datetime": Date().description,
-            "inputPath": inputPath.value ?? "",
-            "outputPath": outputPath.value ?? "stdout",
-            "templatePath": templatePath.value ?? ""
-        ]
-        dataDictionary["GenKit"] = meta
-    }
-
-  do {
-    // Read Template file into strings
-    let templateContent = try String(contentsOfFile: templateFile, encoding: String.Encoding.utf8)
-    let rendered: String
-
-    if useStencil {
-        rendered = try Environment().renderTemplate(string: templateContent, context: dataDictionary)
-    } else {
-        let template = try Template(string: templateContent)
-        rendered = try template.render(with: Box(dataDictionary))
-    }
-    
-    if let output = output {
-        if !quiet {
-            print("\(output.exists ? "Regenerating" : "Creating") output file: \(output.fileName)")
+    do {
+        guard let inputDictionary = try GenKit.loadYAML(fromFile: inputFile) as? [String: Any] else {
+            print("Error reading input YAML file. Top level container of YAML file must be a dictionary.")
+            exit(EX_DATAERR)
         }
-        try TextFile(path: output).write(rendered, atomically: true)
-    } else {
-        print(rendered)
+
+        let rendered = try GenKit.generate(inputDictionary, templateFile: templateFile, template: useStencil ? .stencil : .mustache)
+
+        if let output = output {
+            if !quiet {
+                print("\(output.exists ? "Regenerating" : "Creating") output file: \(output.fileName)")
+            }
+            try TextFile(path: output).write(rendered, atomically: true)
+        } else {
+            print(rendered)
+        }
+    } catch let error {
+        print(error)
+        exit(EX_DATAERR)
     }
-  } catch let error as MustacheError {
-    print(error.description)
-    exit(EX_DATAERR)
-  } catch let error {
-    print(error)
-    exit(EX_DATAERR)
-  }
 
 } else if !quiet {
-  print("Skipping \(output?.fileName ?? input.fileName)")
+    print("Skipping \(output?.fileName ?? input.fileName)")
 }
 
 exit(EX_OK)

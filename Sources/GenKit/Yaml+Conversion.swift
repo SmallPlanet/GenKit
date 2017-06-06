@@ -12,7 +12,7 @@ extension Yaml {
 
     // Converts Yaml instances to standard Swift types
 
-    public func convert() -> Any {
+    public func toAny() -> Any {
         switch self {
         case .null:
             return "Null"
@@ -25,12 +25,12 @@ extension Yaml {
         case .string(let s):
             return s
         case .array(let s):
-            return s.map{ $0.convert() }
+            return s.map{ $0.toAny() }
         case .dictionary(let m):
             var dict = [String: Any]()
             for (k, v) in m {
                 if let k = k.string {
-                    dict[k] = v.convert()
+                    dict[k] = v.toAny()
                 }
             }
             return dict
