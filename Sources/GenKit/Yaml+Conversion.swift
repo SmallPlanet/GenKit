@@ -12,7 +12,7 @@ extension Yaml {
 
     // Converts Yaml instances to standard Swift types
 
-    func convert() -> Any {
+    public func convert() -> Any {
         switch self {
         case .null:
             return "Null"

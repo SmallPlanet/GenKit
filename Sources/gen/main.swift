@@ -4,6 +4,7 @@
 // Converts a YAML input file through a Stencil template to make shiny happy strings
 //
 
+import GenKit
 import CommandLineKit
 import FileKit
 import Foundation

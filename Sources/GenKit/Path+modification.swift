@@ -11,7 +11,7 @@ import FileKit
 extension Path {
     
     // Returns true if this Path has been modified since comparePath's modificationDate
-    func modified(since comparePath: Path?) -> Bool {
+    public func modified(since comparePath: Path?) -> Bool {
         guard let modificationDate = modificationDate, let compareModificationDate = comparePath?.modificationDate else {
             return false
         }

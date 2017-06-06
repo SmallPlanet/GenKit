@@ -3,7 +3,8 @@
 import PackageDescription
 
 let package = Package(
-    name: "gen",
+    name: "GenKit",
+    targets: [Target(name: "gen", dependencies: ["GenKit"]),],
     dependencies: [
 	.Package(url: "https://github.com/jatoben/CommandLine.git", Version(3, 0, 0, prereleaseIdentifiers: ["pre"], buildMetadataIdentifier: "1")),
         .Package(url: "https://github.com/behrang/YamlSwift.git", Version(3, 3, 1)),
