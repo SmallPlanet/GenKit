@@ -1,6 +1,28 @@
-# GenKit
+GenKit is a framework that can be used to generate textual output from a Dictionary or YAML file using a templating engine and `gen` is a command line executable that leverages GenKit. The motivation for GenKit and gen is to automate code generation in cross-platform projects to ensure parity and type safety.
 
+GenKit implements both Mustache and Stencil template engines.
 
+## Building
+
+GenKit is written in Swift 3.1 using Swift Package Manager. To build `gen` and GenKit, clone the repository and cd into the repo's top directory in a terminal window. Typing `swift build` in that directory will fetch all dependencies, build GenKit, it's dependencies, and `gen` in the directory `.build/debug`
+
+## Usage
+
+The `gen` command run without arguments will display the available arguments. To see this type
+
+```asciidoc
+.build/debug/gen
+```
+
+To generate a Swift enum from the sample input `dinos.yaml` using the Mustache template `dinos.swift.mustache` type:
+
+```asciidoc
+.build/debug/gen -i Samples/inputs/dinos.yaml -t Samples/templates/dinos.swift.mustache
+```
+
+The previous example usage prints the output to stdout. To output to a file, add the `-o output/file/path` argument.
+
+To use a Stencil template instead of the default Mustache, add the `-s` argument.
 
 ## License
 
@@ -13,4 +35,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
