@@ -1,3 +1,7 @@
+[![swiftpm](https://img.shields.io/badge/spm-compatible-brightgreen.svg?style=flat)](https://swift.org/package-manager)
+[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/SmallPlanet/GenKit/master)
+
+
 GenKit is a framework that can be used to generate textual output from a Dictionary or YAML file using a templating engine and `gen` is a command line executable that leverages GenKit. The motivation for GenKit and gen is to automate code generation in cross-platform projects to ensure parity and type safety.
 
 GenKit implements both Mustache and Stencil template engines.
