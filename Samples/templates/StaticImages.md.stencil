@@ -1,0 +1,5 @@
+# name
+
+| Emoji | Filename prefix |
+| --- | --- |{% for emoji in emojis %}
+| {{ emoji.emoji }} | {{ emoji.filename }} |{% endfor %}
