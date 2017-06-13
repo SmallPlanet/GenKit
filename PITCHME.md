@@ -1,10 +1,12 @@
-# GenKit
+<span style="font-size:2.0em">GenKit</span>
+<br />
 <span style="font-size:0.6em; color:gray">YAML -> Code</span> |
 <span style="font-size:0.6em; color:gray">See <a href="https://github.com/SmallPlanetSwift/GenKit/" target="_blank">GenKit</a> on GitHub for details.</span>
 
 ---
 
-## Why GenKit?
+<span style="font-size:2.0em">Why GenKit?</span>
+<br />
 <span style="color:#29B8EB">Safe</span> |
 <span style="color:#29B8EB">Lazy</span>
 
@@ -29,14 +31,15 @@ We don't usually get to be lazy _and_ safe
 
 ---
 
-## Using GenKit
+<span style="font-size:2.0em">Using GenKit</span>
+<br />
 Build | Run
 
 +++
 
 ## Build
 
-* Written in Swift
+* Written in Swift 3.1
 * Built with Swift Package Manager
 
 </br>
@@ -99,6 +102,26 @@ gen -i input.yaml -t template.stencil -s -o out.txt
 
 <span style="font-size:0.8em; color:gray">Writes data to file out.txt instead of stdout.</span>
 
+---
+
+<span style="font-size:2.0em">Newness Checks</span>
+<br />
+
+* `gen` checks files to avoid uneccesary work
+* Generates if at least one of these conditions is met:
+
+  * output file does not exist
+  * input newer than output
+  * template newer than output
+
++++
+
+## Compare Files
+
+* Optional command line argument -c or --compare
+* Accepts multiple files (space separated)
+* Generates if any compare file is newer than output
+
 +++
 
 ## Run
@@ -112,26 +135,8 @@ gen -i input.yaml -t template.stencil -s -o out.txt \
 
 ---
 
-## Newness Checks
-
-GenKit checks files to avoid uneccesary work, generates only when one of these conditions is met:
-
-* output file does not exist
-* input newer than output
-* template newer than output
-
-+++
-
-## Compare Files
-
-* Optional command line argument -c or --compare
-* Accepts multiple files (space separated)
-* Generates if any compare file is newer than output
-
-
----
-
-## Data
+<span style="font-size:2.0em">Data</span>
+<br />
 
 * Stored in YAML format
 * Top-level must be a dictionary
@@ -161,17 +166,17 @@ groups:
 ```
 
 +++
-
-## YAML Benefits
+<span style="font-size:2.0em">YAML Benefits</span>
+<br />
 
 * Functionally equivalent to JSON
 * Easier to read/write
 * Comment: can add comments
 
-
 ---
 
-## Template Choice
+<span style="font-size:2.0em">Template Choice</span>
+<br />
 
 <a href="https://github.com/IBM-Swift/GRMustache.swift" target="_blank">Mustache</a> |
 <a href="https://github.com/kylef/Stencil" target="_blank">Stencil</a>
@@ -191,19 +196,43 @@ groups:
 
 * Optional system accessed with -s or --stencil option
 * <a href="https://github.com/kylef/Stencil.git" target="_blank">github.com/kylef/Stencil</a>
+
 ---
 
-## Integration
+<span style="font-size:2.0em">GenKit Integration</span>
 
-* Xcode build phase script
-* GenKit library separate from gen tool
-* Build custom tools
+<math displaystyle="true">
+  <munderover >
+    <mo> &#x222B; <!--INTEGRAL--> </mo>
+    <mn> 0 </mn>
+    <mi> &nbsp;&nbsp;&nbsp;&#x1F355; <!--INFINITY--> </mi>
+  </munderover>
+
+  <mrow>
+    <mo>(</mo>
+    <mi>GenKit</mi>
+    <mo>)</mo>
+    <msub>
+      <mi>dx</mi>
+    	<mi>code</mi>
+    </msub>
+  </mrow>
+</math>
 
 +++
 
-## Xcode integration
+## Xcode Integration
 
-```asciidoc
+* Xcode build phase script
+* Automatically runs when target is built
+* Builds `GenKit` and `gen`
+* Uses `gen` to generate what you need
+
++++
+
+## Sample integration
+
+```bash
 cd "$PROJECT_DIR/GenKit"
 # build if needed
 env -i swift build
@@ -215,12 +244,15 @@ TEMPLATE_FILE="$PROJECT_DIR/enums.swift.mustache"
 .build/debug/gen -i "${PLIST_FILE}" -o "${OUTPUT_FILE}" -t "{$TEMPLATE_FILE}"
 ```
 
-+++
+---
 
-## GenKit Library
+<span style="font-size:2.0em">GenKit Customization</span>
+<br/>
 
 * `gen` tool built with GenKit library
-* Can use GenKit as a Package in another tool
+* GenKit library separate from gen tool
+* Can use GenKit as a Package
+* Build custom tools
 
 +++
 
@@ -233,7 +265,8 @@ TEMPLATE_FILE="$PROJECT_DIR/enums.swift.mustache"
 
 ---
 
-## Assembled with
+<span style="font-size:2.0em">Assembled with</span>
+<br />
 
 * <a href="https://github.com/jatoben/CommandLine" target="_blank">github.com/jatoben/CommandLine</a>
 * <a href="https://github.com/behrang/YamlSwift" target="_blank">github.com/behrang/YamlSwift</a>
@@ -244,9 +277,9 @@ TEMPLATE_FILE="$PROJECT_DIR/enums.swift.mustache"
 
 ---
 
-### Built with ❤️ & 🍕 in Brooklyn
+<span style="font-size:1.6em">Built with ❤️ & 🍕 in Brooklyn</span>
+<br />
 
 <br/>
 
 <span style="font-size:1.6em">by <a href="https://smallplanet.com/" target="_blank">Small Planet</a></span>
-
