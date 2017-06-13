@@ -16,17 +16,18 @@ We don't usually get to be lazy _and_ safe
 
 ## Safe
 
-* Define data in human-writable YAML files
-* Templates transform data into whatever
+* Define data in easily maintainable YAML files
 * Single source of constants
 * Parity between platforms
+* Allow non-developers to make changes without touching code
 
 +++
 
 ## Lazy
 
+* Templates transform data into whatever
 * Automate repetetive code generation
-* Allow non-developers to make changes without touching code
+* Generate non-code -- wiki documentation, for example
 * Finally replace someone with a tiny shell script
 
 ---
@@ -241,7 +242,8 @@ PLIST_FILE="$PROJECT_DIR/things.yaml"
 OUTPUT_FILE="$PROJECT_DIR/$PROJECT_NAME/Things.swift"
 TEMPLATE_FILE="$PROJECT_DIR/enums.swift.mustache"
 
-.build/debug/gen -i "${PLIST_FILE}" -o "${OUTPUT_FILE}" -t "{$TEMPLATE_FILE}"
+.build/debug/gen -i "${PLIST_FILE}" -o "${OUTPUT_FILE}" \
+     -t "{$TEMPLATE_FILE}"
 ```
 
 ---
@@ -249,16 +251,16 @@ TEMPLATE_FILE="$PROJECT_DIR/enums.swift.mustache"
 <span style="font-size:2.0em">GenKit Customization</span>
 <br/>
 
-* `gen` tool built with GenKit library
-* GenKit library separate from gen tool
-* Can use GenKit as a Package
+* `gen` tool built with `GenKit` library
+* `GenKit` library separate from `gen` tool
+* Can use `GenKit` as a Package
 * Build custom tools
 
 +++
 
 ## Custom Tools
 
-* `gen` works in many cases with static YAML
+* `gen` sufficient in cases with simple YAML
 * Custom tools help when data needs massaging
 * See <a href="https://github.com/qmchenry/Lion" target="_blank">Lion</a> 🦁 for example
   * Generates typesafe structs from `Localizable.strings`
