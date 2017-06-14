@@ -66,12 +66,12 @@ Usage: .build/debug/gen [options]
   -o, --output:
       Output file (writes to stdout if not provided)
   -c, --compare:
-      Files to compare modification dates against (multiple values separated by space)
-      -q, --quiet:
-          Suppress non-error output
+      Files to compare modification dates against (multiple values separated by comma)
+  -q, --quiet:
+      Suppress non-error output
 ```
 
-<span style="font-size:0.8em; color:gray">Without options, gen prints usage</span>
+<span style="font-size:0.8em; color:gray">Without options, `gen` prints usage</span>
 
 +++
 
@@ -81,7 +81,17 @@ Usage: .build/debug/gen [options]
 gen -i input.yaml -t template.mustache
 ```
 
-<span style="font-size:0.8em; color:gray">Processes data in **input.yaml** using the Mustache template **template.mustache**, sends output to stdout.</span>
+<span style="font-size:0.8em; color:gray">Processes data in `input.yaml` using the Mustache template `template.mustache`, sends output to stdout.</span>
+
++++
+
+## Run
+
+```asciidoc
+gen -i input.yaml -t template.mustache -o out.txt
+```
+
+<span style="font-size:0.8em; color:gray">Writes data to file `out.txt` instead of stdout.</span>
 
 +++
 
@@ -91,17 +101,7 @@ gen -i input.yaml -t template.mustache
 gen -i input.yaml -t template.stencil -s
 ```
 
-<span style="font-size:0.8em; color:gray">Considers **template.stencil** a Stencil template because of -s option.</span>
-
-+++
-
-## Run
-
-```asciidoc
-gen -i input.yaml -t template.stencil -s -o out.txt
-```
-
-<span style="font-size:0.8em; color:gray">Writes data to file out.txt instead of stdout.</span>
+<span style="font-size:0.8em; color:gray">`-s` option treats `template.stencil` a Stencil template.</span>
 
 ---
 
@@ -119,7 +119,7 @@ gen -i input.yaml -t template.stencil -s -o out.txt
 
 ## Compare Files
 
-* Optional command line argument -c or --compare
+* Optional command line argument `-c` or `--compare`
 * Accepts multiple files (comma separated)
 * Generates if any compare file is newer than output
 
@@ -132,7 +132,7 @@ gen -i input.yaml -t template.stencil -s -o out.txt \
     -c compare1.txt,compare2.txt
 ```
 
-<span style="font-size:0.8em; color:gray">Does not generate out.txt if it is newer than compare1.txt and compare2.txt in addition to template.stencil and input.yaml.</span>
+<span style="font-size:0.8em; color:gray">Does not generate `out.txt` if it is newer than `compare1.txt` and `compare2.txt` in addition to `template.stencil` and `input.yaml`.</span>
 
 ---
 
@@ -167,12 +167,24 @@ groups:
 ```
 
 +++
+
 <span style="font-size:2.0em">YAML Benefits</span>
 <br />
 
 * Functionally equivalent to JSON
-* Easier to read/write
+* Easier to read/write/debug
 * Comment: can add comments
+
++++
+
+<span style="font-size:2.0em">GenKit Meta Dictionary</span>
+<br />
+
+* Adds dictionary with key "GenKit" unless it exists
+* Useful for header comments in code
+* Contains:
+  * `datetime`
+  * `templatePath`
 
 ---
 
