@@ -32,6 +32,82 @@ We don't usually get to be lazy _and_ safe
 
 ---
 
+<span style="font-size:2.0em">Data</span>
+<br />
+
+* Stored in YAML format
+* Top-level must be a dictionary
+* Otherwise anything goes
+
++++
+
+## Sample
+
+```yaml
+name: AnalyticsKeys
+package: com.smallplanet.android.project.analytics
+groups:
+
+# Core Events
+
+  - name: Screens
+    strings:
+      - var: day
+        string: Day
+      - var: calendar
+        string: Calendar
+      - var: settings
+        string: Settings
+      - var: resource
+        string: Resource
+```
+
++++
+
+<span style="font-size:2.0em">YAML Benefits</span>
+<br />
+
+* Functionally equivalent to JSON
+* Easier to read/write/debug
+* Comment: can add comments
+
++++
+
+<span style="font-size:2.0em">GenKit Meta Dictionary</span>
+<br />
+
+* Adds dictionary with key "GenKit" unless it exists
+* Useful for header comments in code
+* Contains:
+  * `datetime`
+  * `templatePath`
+
+---
+
+<span style="font-size:2.0em">Template Choice</span>
+<br />
+
+<a href="https://github.com/IBM-Swift/GRMustache.swift" target="_blank">Mustache</a> |
+<a href="https://github.com/kylef/Stencil" target="_blank">Stencil</a>
+
++++
+
+## Mustache
+
+* Default template engine
+* Closely follows <a href="http://mustache.github.io" target="_blank">Mustache</a> standard
+* Uses IBM's actively developed fork
+* <a href="https://github.com/IBM-Swift/GRMustache.swift" target="_blank">github.com/IBM-Swift/GRMustache.swift</a>
+
++++
+
+## Stencil
+
+* Optional system accessed with -s or --stencil option
+* <a href="https://github.com/kylef/Stencil.git" target="_blank">github.com/kylef/Stencil</a>
+
+---
+
 <span style="font-size:2.0em">Using GenKit</span>
 <br />
 Build | Run
@@ -133,82 +209,6 @@ gen -i input.yaml -t template.stencil -s -o out.txt \
 ```
 
 <span style="font-size:0.8em; color:gray">Does not generate `out.txt` if it is newer than `compare1.txt` and `compare2.txt` in addition to `template.stencil` and `input.yaml`.</span>
-
----
-
-<span style="font-size:2.0em">Data</span>
-<br />
-
-* Stored in YAML format
-* Top-level must be a dictionary
-* Otherwise anything goes
-
-+++
-
-## Sample
-
-```yaml
-name: AnalyticsKeys
-package: com.smallplanet.android.project.analytics
-groups:
-
-# Core Events
-
-  - name: Screens
-    strings:
-      - var: day
-        string: Day
-      - var: calendar
-        string: Calendar
-      - var: settings
-        string: Settings
-      - var: resource
-        string: Resource
-```
-
-+++
-
-<span style="font-size:2.0em">YAML Benefits</span>
-<br />
-
-* Functionally equivalent to JSON
-* Easier to read/write/debug
-* Comment: can add comments
-
-+++
-
-<span style="font-size:2.0em">GenKit Meta Dictionary</span>
-<br />
-
-* Adds dictionary with key "GenKit" unless it exists
-* Useful for header comments in code
-* Contains:
-  * `datetime`
-  * `templatePath`
-
----
-
-<span style="font-size:2.0em">Template Choice</span>
-<br />
-
-<a href="https://github.com/IBM-Swift/GRMustache.swift" target="_blank">Mustache</a> |
-<a href="https://github.com/kylef/Stencil" target="_blank">Stencil</a>
-
-+++
-
-## Mustache
-
-* Default template engine
-* Closely follows <a href="http://mustache.github.io" target="_blank">Mustache</a> standard
-* Uses IBM's actively developed fork
-* <a href="https://github.com/IBM-Swift/GRMustache.swift" target="_blank">github.com/IBM-Swift/GRMustache.swift</a>
-
-+++
-
-## Stencil
-
-* Optional system accessed with -s or --stencil option
-* <a href="https://github.com/kylef/Stencil.git" target="_blank">github.com/kylef/Stencil</a>
 
 ---
 
