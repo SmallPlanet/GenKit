@@ -120,7 +120,7 @@ gen -i input.yaml -t template.stencil -s -o out.txt
 ## Compare Files
 
 * Optional command line argument -c or --compare
-* Accepts multiple files (space separated)
+* Accepts multiple files (comma separated)
 * Generates if any compare file is newer than output
 
 +++
