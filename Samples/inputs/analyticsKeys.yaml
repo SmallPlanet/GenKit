@@ -1,0 +1,39 @@
+# Analytics Keys
+#
+# Defines string literals to be used across platforms
+
+name: AnalyticsKeys
+package: com.smallplanet.android.genkit.test
+
+groups:
+
+## Core Events
+
+  - name: ApplicationForegrounded
+    strings:
+      - var: eventName
+        string: Application Foregrounded
+      - var: dynamicTextSize
+        string: dynamicTextSize
+      - var: source
+        string: source
+      - var: voiceOverEnabled
+        string: voiceOverEnabled
+
+  - name: ApplicationBackgrounded
+    strings:
+      - var: eventName
+        string: Application Backgrounded
+
+  - name: Screens
+    strings:
+      - var: onboarding
+        string: onboarding
+      - var: main
+        string: Main View
+      - var: secondary
+        string: Secondary View
+      - var: help
+        string: helpView
+      - var: categorySelector
+        string: Customization Category
