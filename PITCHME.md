@@ -26,7 +26,7 @@ We don't usually get to be lazy _and_ safe
 ## Lazy
 
 * Templates transform data into whatever
-* Automate repetetive code generation
+* Automate repetitive code generation
 * Generate non-code -- wiki documentation, for example
 * Finally replace someone with a tiny shell script
 
@@ -187,7 +187,7 @@ gen -i input.yaml -t template.stencil -s
 <span style="font-size:2.0em">Newness Checks</span>
 <br />
 
-* `gen` checks files to avoid uneccesary work
+* `gen` checks files to avoid unnecessary work
 * Generates if at least one of these conditions is met:
 
   * output file does not exist
